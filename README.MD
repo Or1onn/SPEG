@@ -12,11 +12,11 @@ The meteorological data of the Sverdlovsk region were used for every half hour f
 
 ### Raw data:
 
-![data_comparison.png](..%2F..%2FDesktop%2Fdata_comparison.png)
+![data_comparison.png](images/data_comparison.png)
 
 ### Cleared data:
 
-![data_comparison_clear.png](..%2F..%2FDesktop%2Fdata_comparison_clear.png)
+![data_comparison_clear.png](images/data_comparison_clear.png)
 
 As you can see, the initial data has a large number of outliers, NaN data and interferences that cannot be in nature. After the work done on cleaning and normalization, everything began to have an acceptable shape.
 
@@ -32,7 +32,7 @@ After some benchmarks, the **GradientBoostingRegressor** model was chosen.
 
 ### Benchmark results:
 
-![models.png](..%2F..%2FDesktop%2Fmodels.png)
+![models.png](images/models.png)
 
 As you can see from this diagram, the GradientBoostingRegressor is the most accurate model.
 
@@ -40,7 +40,7 @@ As a result, the percentage of errors in predictions is **15-16%**, which is an 
 
 ### General chart:
 
-![result_0.png](..%2F..%2FDesktop%2Fresult_0.png)
+![result_0.png](images/result_0.png)
 
 
 The following two graphs will show the results in detail.
@@ -48,10 +48,10 @@ The following two graphs will show the results in detail.
 
 ### Chart 1:
 
-![resultpng.png](..%2F..%2FDesktop%2Fresultpng.png)
+![resultpng.png](images/result_1.png)
 
 ### Chart 2:
 
-![result_2png.png](..%2F..%2FDesktop%2Fresult_2png.png)
+![result_2png.png](images/result_2png.png)
 
 As you can see, the difference between the predicted (orange) and actually received energy is insignificant.
